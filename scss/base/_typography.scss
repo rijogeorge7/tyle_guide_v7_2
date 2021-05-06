@@ -1,3 +1,5 @@
+@import '../utilities/variables';
+
 $main-font: 'Lato', sans-serif;
 $secondary-font-weight: 300;
 $primary-font-weight: 700;
@@ -10,18 +12,18 @@ $para-line-height: 1.45em;
 }
 
 .headline-secondary {
-  font-weight: 300;
-  color: #777;
+  font-weight: $secondary-font-weight;
+  color: $main_color;
 }
 
 .link {
   color: #51ddfc;
-  font-weight: 700;
+  font-weight: $primary-font-weight;
 }
 
 .blockquote {
   font-size: 1.5em;
-  font-weight: 300;
+  font-weight: $secondary-font-weight;
   font-style: italic;
   margin-left: 20px;
   padding-left: 20px;
