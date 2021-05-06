@@ -8,6 +8,14 @@
     padding: 10px 0;
     text-transform: uppercase;
     border-radius: 5px;
+    transition-property: background-color;
+    transition-duration: 1s;
+    @media (min-width: $medium-screen) {
+      padding: 10px 30px;
+    }
+    &:hover {
+      background-color: lighten($color: #51ddfc, $amount: 15%);
+    }
   }
   
   .default {

@@ -22,3 +22,10 @@
     margin-left: auto;
     margin-right: auto;
   }
+
+  @media (min-width: $medium-screen) {
+    .logo {
+      margin-left: initial;
+      margin-right: initial;
+    }
+  }
