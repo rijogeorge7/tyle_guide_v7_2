@@ -1,2 +1,16 @@
-@use 'normalize';
-@use "typography";
+@import 'normalize',
+        "typography";
+
+* {
+    font-family: $main-font;
+    color: #777;
+    box-sizing: border-box;
+}
+
+p {
+    line-height: $para-line-height;
+  }
+
+a {
+    text-decoration: none;
+  }
