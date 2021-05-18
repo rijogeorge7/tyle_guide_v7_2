@@ -14,27 +14,27 @@
       padding: 10px 30px;
     }
     &:hover {
-      background-color: lighten($color: #51ddfc, $amount: 15%);
+      background-color: lighten($color: $link-colr, $amount: 15%);
     }
   }
   
   .default {
-    background-color: #51ddfc;
+    background-color: $link-colr;
   }
   
   .error {
-    background-color: #e4757a;
+    background-color: $error-background-color;
   }
   
   .info {
-    background-color: #927bc1;
+    background-color: $info-background-color;
   }
   
   .success {
-    background-color: #63cc82;
+    background-color: $success-background-color;
   }
   
   .warning {
-    background-color: #fd7856;
+    background-color: $warning-background-color;
   }
   
